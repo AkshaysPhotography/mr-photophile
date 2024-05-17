@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Photophile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <div class="dropdown-btn" onclick="toggleDropdown()">
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <div class="dropdown-content" id="dropdownContent">
+                  <a href="wedding.html">Wedding Photography</a>
+                  <a href="savetd.html">Save the Date</a>
+                  <a href="baby.html">Baby Photography</a>
+                  <a href="model.html">Model Photography</a>
+                  <a href="festival.html">Festival Photography</a>
+                  <a href="cinema.html">Cinematography</a>
+                </div>
+              </div>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/wed1.JPEG">
+                <div class="content">
+                    <div class="author">AKSHAY</div>
+                    <div class="title">Wedding</div>
+                    <div class="topic">Photography</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                       
+                    </div>
+                    <a href="wedding.html">
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/show/Save the date/std13 L.jpg">
+                <div class="content">
+                    <a href="model.html"></a>
+                    <div class="author">AKSHAY</div>
+                    <div class="title">Save</div>
+                    <div class="topic">The Date</div>
+                    <div class="des">
+                        
+                    </div>
+                    <a href="savetd.html">
+                    <div class="buttons">
+                       <button type="submit">SEE MORE</button>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/mod3.png">
+                <div class="content">
+                    <a href="model.html"></a>
+                    <div class="author">AKSHAY</div>
+                    <div class="title">Model</div>
+                    <div class="topic">Photography</div>
+                    <div class="des">
+                        
+                    </div>
+                    <a href="model.html">
+                    <div class="buttons">
+                       <button type="submit">SEE MORE</button>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/baby1.jpeg">
+                <div class="content">
+                    <div class="author">AKSHAY</div>
+                    <div class="title">Baby</div>
+                    <div class="topic">Photography</div>
+                    <div class="des">
+                        
+                    </div>
+                    <a href="baby.html">
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/fest1.jpeg">
+                <div class="content">
+                    <div class="author">AKSHAY</div>
+                    <div class="title">Festival</div>
+                    <div class="topic">Photography</div>
+                    <div class="des">
+                        
+                    </div>
+                    <a href="festival.html">
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <a href="wedding.html">
+                <img src="image/wed2.JPEG">
+                <div class="content">
+                    <div class="title">
+                        Wedding
+                    </div>
+                    <div class="description">
+                        Photography
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="item">
+                <a href="savetd.html">
+                <img src="image/show/Save the date/std12.jpg">
+                <div class="content">
+                    <div class="title">
+                        Save
+                    </div>
+                    <div class="description">
+                        The Date
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="item">
+                <a href="model.html">
+                <img src="image/mod2.JPG">
+                <div class="content">
+                    <div class="title">
+                        Model
+                    </div>
+                    <div class="description">
+                        Photography
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="item">
+                <a href="baby.html">
+                <img src="image/baby1.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Baby
+                    </div>
+                    <div class="description">
+                        Photography
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="item">
+                <a href="festival.html">
+                <img src="image/fest1.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Festival
+                    </div>
+                    <div class="description">
+                        Photography
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    color: #eee;
+    font-family: Sedan SC;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+header a{
+    color: #ffffff;
+    margin-right: 40px;
+}
+/* Navigation bar */
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    margin: 3px;
+}
+.container{
+    margin-left: -50px;
+    margin-top: -5px;
+    position: fixed;
+}
+.change .bar1 {
+    transform: translate(0, 10px) rotate(-45deg);
+  }
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, 0px) rotate(45deg);
+ }
+/* Dropdown bar */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 5vh;
+    margin-left: -5px;
+  }
+  
+  .dropdown-btn {
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 0% 0px 180px 0px;
+    margin-left: -50px;
+    margin-top: 28px;
+    background-color: #0000006d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: height 0.5s linear; /* Transition for height change */
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9e9c9c8f;
+    padding: 12px 20px;
+    width: 100%;
+  }
+ 
+.backgroundpic {
+    height: 100vh;
+    margin-top: -50px;
+    width: 100vw;
+    position: fixed;
+}
+.backgroundpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.photo {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.enlarged {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.enlarged img {
+    max-width: fit-content;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    transition: transform 0.5s linear;
+}

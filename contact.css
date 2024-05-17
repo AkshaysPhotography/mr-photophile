@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    color: #eee;
+    font-family: Sedan SC;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+header a{
+    color: #ffffff;
+    margin-right: 40px;
+}
+/* Navigation bar */
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: 0.5s;
+    margin: 3px;
+}
+.container{
+    margin-left: -50px;
+    margin-top: -5px;
+    position: fixed;
+}
+.change .bar1 {
+    transform: translate(0, 10px) rotate(-45deg);
+  }
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, 0px) rotate(45deg);
+ }
+/* Dropdown bar */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 5vh;
+    margin-left: -5px;
+  }
+  
+  .dropdown-btn {
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 0% 0px 180px 0px;
+    margin-left: -50px;
+    margin-top: 28px;
+    background-color: #0000006d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: height 0.5s linear; /* Transition for height change */
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9e9c9c8f;
+    padding: 12px 20px;
+    width: 100%;
+  }
+ 
+.backgroundpic {
+    height: 100vh;
+    margin-top: -50px;
+    width: 100vw;
+    position: fixed;
+}
+.backgroundpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(0px);
+}
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+.photo {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.box {
+    width: 300px; /* Width of the box */
+    height: 200px; /* Height of the box */
+    background-color: #110c0c91; /* Box color */
+    border: 2px solid #333333; /* Border color */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    justify-content: center;
+}
+
+
+.container .album .box .about .number img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.container .album .box .about .mail img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 120px;
+}
+.container .album .box .about .insta img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.container .album .box .about .number {
+    justify-content: center;
+    display: inline;
+    position: fixed;
+}
+.container .album .box .about .num1 a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    padding-left: 90px;
+    position: fixed;
+    padding-top: 15px;
+}
+.container .album .box .about .num2 a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    padding-left: 90px;
+    position: fixed;
+    padding-top: 80px;
+
+}
+.container .album .box .about .numor a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    padding-left: 115px;
+    position: fixed;
+    padding-top: 48px;
+}
+.container .album .box .about .mail a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:small;
+    margin-left: 20px;
+    position: fixed;
+    margin-top: 125px;
+}
+.container .album .box .about .insta a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    margin-left: 20px;
+    position: fixed;
+    margin-top: 15px
+}
