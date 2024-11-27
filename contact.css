@@ -103,6 +103,7 @@ header a{
     margin: 20px auto;
     padding: 0 20px;
     position: relative;
+    padding-left: 40%;
 }
 
 .container table{
@@ -129,21 +130,11 @@ header a{
   /* Mobile View */
   @media screen and (max-width: 768px) {
 
-
-    nav .right {
-        justify-content: flex-end;
+    .container {
+        padding-left: 10%;
     }
 
-    .table-container {
-        width: 95%;
-    }
-
-    tbody td:nth-child(3) {
-        font-size: 30px;
-    }
-
-    .tick, .cross {
-        padding: 10px 20px;
-        font-size: 12px;
+    tbody {
+        font-size: 10px;
     }
 }
