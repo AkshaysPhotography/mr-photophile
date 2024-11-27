@@ -121,82 +121,27 @@ h1 {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
-
-.box {
-    width: 300px; /* Width of the box */
-    height: 200px; /* Height of the box */
-    background-color: #110c0c91; /* Box color */
-    border: 2px solid #333333; /* Border color */
-    border-radius: 10px; /* Border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
-    justify-content: center;
+.container table{
+    font-size: larger;
+    height: 25vh;
+    width: 50vw;
+    border: 2px solid;
+    margin-top: 30vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 10px;
+    max-width: fit-content;
+    background-color: rgba(0, 0, 0, 0.443);
 }
-
-
-.container .album .box .about .number img{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    padding-left: 15px;
-    padding-top: 15px;
+.container table th{
+    text-align: center;
+    padding-left: 37%;
+    font-size: 30px
 }
-.container .album .box .about .mail img{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    padding-left: 15px;
-    padding-top: 120px;
-}
-.container .album .box .about .insta img{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-.container .album .box .about .number {
-    justify-content: center;
-    display: inline;
-    position: fixed;
-}
-.container .album .box .about .num1 a{
-    color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    padding-left: 90px;
-    position: fixed;
-    padding-top: 15px;
-}
-.container .album .box .about .num2 a{
-    color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    padding-left: 90px;
-    position: fixed;
-    padding-top: 80px;
+.container table:hover{
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.582);
 
 }
-.container .album .box .about .numor a{
-    color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    padding-left: 115px;
-    position: fixed;
-    padding-top: 48px;
-}
-.container .album .box .about .mail a{
-    color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:small;
-    margin-left: 20px;
-    position: fixed;
-    margin-top: 125px;
-}
-.container .album .box .about .insta a{
-    color: #ffffff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:medium;
-    margin-left: 20px;
-    position: fixed;
-    margin-top: 15px
+.container table a{
+    color: white;
 }
