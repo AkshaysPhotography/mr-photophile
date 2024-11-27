@@ -145,3 +145,24 @@ h1 {
 .container table a{
     color: white;
 }
+  /* Mobile View */
+  @media screen and (max-width: 768px) {
+
+
+    nav .right {
+        justify-content: flex-end;
+    }
+
+    .table-container {
+        width: 95%;
+    }
+
+    tbody td:nth-child(3) {
+        font-size: 30px;
+    }
+
+    .tick, .cross {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
