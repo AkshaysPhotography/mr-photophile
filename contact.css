@@ -99,36 +99,17 @@ header a{
     filter: blur(0px);
 }
 .container {
-    max-width: 1400px;
+    max-width:1400px;
     margin: 20px auto;
     padding: 0 20px;
     position: relative;
 }
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.album {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50%;
-}
-.photo {
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
+
 .container table{
-    font-size: larger;
     height: 25vh;
     width: 50vw;
     border: 2px solid;
     margin-top: 30vh;
-    margin-left: 30vw;
-    margin-right: 30vw;
     padding: 10px;
     max-width: fit-content;
     background-color: rgba(0, 0, 0, 0.443);
